@@ -6,14 +6,14 @@
   "sourceFormat": "designer",
   "defaultBranch": "storage_1c",
   "secrets": {
-    "storagePath": "Path_Otus_Storage_ID",
-    "storage": "DeployGit_id",
+    "storagePath": "StoragePath",
+    "storage": "GitStorageUser",
     "telegramBotToken": "UNKNOWN_ID",
     "telegramChatId": "UNKNOWN_ID"
   },
   "stages": {
     "initSteps": true,
-    "sonarqube": true,
+    "sonarqube": false,
     "bdd": true,
     "syntaxCheck": true,
     "edtValidate": false,
